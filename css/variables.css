@@ -39,7 +39,7 @@
 
     /* --- Box Model --- */
 
-    /* Margin Bottom */
+    /* Margin */
 
     --m-0-25: .25rem;
     --m-0-5: .5rem;
@@ -52,7 +52,7 @@
 
     /* z - Index */
     --z-tooltip:10;
-    --z-fixex:100;
+    --z-fixed:100;
     --z-modal:1000;
 
 }
