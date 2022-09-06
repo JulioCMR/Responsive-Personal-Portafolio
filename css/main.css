@@ -253,7 +253,28 @@ img {
 }
 
 
-.button-flex {
+
+/* ----- Buttons ----- */
+.button {
     display: inline-block;
+    background-color: var(--first-color);
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    color: #FFF;
+}
+
+.button:hover {
+    background: var(--first-color-alt);
+}
+
+.button-icon {
+    font-size: 1.25rem;
+    margin-left: var(--m-0-5);
+    transition: .3s;
+}
+
+.button-flex {
+    display: inline-flex;
     align-items: center;
 }
