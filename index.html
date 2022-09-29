@@ -352,11 +352,11 @@
 
                 <!-- Qualifications tabs -->
                 <div class="qualification-tabs">
-                    <div class="qualification-button button-flex">
+                    <div class="qualification-button button-flex" data-target="#education">
                         <i class="uil uil-backpack qualification-icon"></i>
                         <p>Education</p>
                     </div>
-                    <div class="qualification-button button-flex">
+                    <div class="qualification-button button-flex" data-target="#work">
                         <i class="uil uil-briefcase-alt qualification-icon"></i>
                         <p>Work</p>
                     </div>   
@@ -366,33 +366,42 @@
                 <div class="qualification-info">
 
                     <!-- Qualifications content info: Education-->
-                    <div class="qualification-content">
-                        <div class="qualification-data">
+                    <div class="qualification-content qualification-active" data-content id="education">
+                        <div class="qualification-data" id="qualification-education">
                             <div>
                                 <h3 class="qualification-title">Computer Science</h3>
                                 <p class="qualification-subtitle">México - UJAT</p>
-                                <div class="qualification-calender">
-                                    <i class="uil uil-calender-alt"></i>
+                                <div class="qualification-calendar">
+                                    <i class="uil uil-calendar-alt"></i>
                                     <p><i>Currently studying</i></p>
                                     <p>2022 - 2026 </p>
                                 </div>
                             </div>
 
                             <div>
-                                <span class="qualification-rounder"></span>
-                                <span class="qualification-line"></span>
+                                <img src="/img/ujatLogo.png" alt="UJAT Logo" width="214" height="300" title="UJAT logo">
                             </div>
+
+                            <div>
+                                <span class="qualification-rounder"></span>
+                                <span class="qualification-line"></span>                                
+                            </div>
+
+                        
                         </div>
                     </div>
 
                     <!-- Qualifications content info: Experience-->
-                    <div class="qualification-content">
+                    <div class="qualification-content" data-content id="work">
                         <div class="qualification-data">
+
+
+
                             <div>
                                 <h3 class="qualification-title">Tech support</h3>
                                 <p class="qualification-subtitle">Bytes & Pixeles - México</p>
-                                <div class="qualification-calender">
-                                    <i class="uil uil-calender-alt"></i>
+                                <div class="qualification-calendar">
+                                    <i class="uil uil-calendar-alt"></i>
                                     <p>2021 - 2022 </p>
                                 </div>
                             </div>
@@ -400,14 +409,21 @@
                             <div>
                                 <span class="qualification-rounder"></span>
                                 <span class="qualification-line"></span>
+                                
                             </div>
+
+                            
                         </div>
+
                         <div class="qualification-data">
+
+                            
+
                             <div>
                                 <h3 class="qualification-title">Legal Assistant | Tech Support</h3>
                                 <p class="qualification-subtitle">Despacho Jurídico CA - México</p>
-                                <div class="qualification-calender">
-                                    <i class="uil uil-calender-alt"></i>
+                                <div class="qualification-calendar">
+                                    <i class="uil uil-calendar-alt"></i>
                                     <p>2019 - 2020 </p>
                                 </div>
                             </div>
@@ -416,6 +432,8 @@
                                 <span class="qualification-rounder"></span>
                                 <span class="qualification-line"></span>
                             </div>
+
+                            
                         </div>
                     </div>
 
